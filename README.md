@@ -47,4 +47,8 @@ Anything that interacts with excel for the spreading and curvature strategies. H
 * Refresh positions sheet (Curvature)
 * Snap Quotes (Curvature)
 * Get Trades (Curvature)
+<<<<<<< HEAD
 * Get Universe (Spreading)
+=======
+* Get Universe (Spreading)
+>>>>>>> 27929327382d44c994725431b347ca2cd59df577
