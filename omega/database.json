@@ -1,0 +1,598 @@
+{
+  "BO": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 600,
+    "Tick": 0.01,
+    "Reference": "FND",
+    "Margin": 30,
+    "Rule": 2,
+    "Spot": "Close of trading x business days prior to the first trading day of the delivery month",
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "BO", "IQFeed": "@BO"},
+    "Letters": ["F", "H", "K", "N", "Q", "U", "V", "Z"],
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "007601"
+  },
+  "C_": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Tick": 0.25,
+    "Margin": 100,
+    "Reference": "FND",
+    "Rule": 2,
+    "Spot": "Close of trading x business days prior to the first trading day of the delivery month",
+    "Stem": {"T4": "", "CMED": "", "Reuters": "C", "IQFeed": "@C"},
+    "Comms": {
+      "C1104LM": {"1990-01-01": {"Lot": 3.36, "Fill": 0}, "2018-01-01": {"Lot": 3.37, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Download": {"nac": 12, "ncb": 5},
+    "COT": "002602"
+  },
+  "CC": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 10,
+    "Tick": 1,
+    "Reference": "FND",
+    "Margin": 300,
+    "Rule": 0,
+    "Spot": "On and after First Notice Day",
+    "Stem": {"T4": "", "CMED": "", "Reuters": "CC", "IQFeed": "@CC"},
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Download": {"nac": 9, "ncb": 4},
+    "COT": "073732"
+  },
+  "CL": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 1000,
+    "Reference": "LTD",
+    "Margin": 220,
+    "Rule": 3,
+    "Spot": "Close of trading x business days prior to last trading day of the contract",
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "CL", "IQFeed": "QCL"},
+    "Letters": [],
+    "Download": {"nac": 30, "ncb": 12},
+    "COT": "067651"
+  },
+  "CT": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 500,
+    "Margin": 1650,
+    "Tick": 0.01,
+    "Reference": "FND",
+    "Rule": 0,
+    "Spot": "On and after First Notice Day",
+    "Letters": ["H", "K", "N", "V", "Z"],
+    "Comms": {
+      "C1104LM": {"1990-01-01": {"Lot": 3.36, "Fill": 0}, "2018-01-01": {"Lot": 3.37, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 2.82, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "CT", "IQFeed": "@CT"},
+    "Download": {"nac": 6, "ncb": 2},
+    "COT": "033661"
+  },
+  "DC": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 2000,
+    "Tick": 0.01,
+    "Reference": "LTD",
+    "Margin": 0,
+    "Rule": 1,
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "DCS", "IQFeed": "@DA"},
+    "Letters": [],
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "052641"
+  },
+  "ED": {
+    "Exchange": "",
+    "Sector": "Yield",
+    "Group": "",
+    "Point": 25,
+    "Tick": 0.5,
+    "Reference": "LTD",
+    "Margin": 0,
+    "Comms": {
+      "C1104LM": {"2016-01-01": {"Lot": 1.86, "Fill": 0}, "2016-07-01": {"Lot": 1.76, "Fill": 0}, "2016-07-13": {"Lot": 1.7, "Fill": 0}, "2018-01-01": {"Lot": 1.71, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 1.97, "Fill": 0}}
+    },
+    "Stem": {"T4": "MKT_XCME_In GE", "CMED": "GE", "Reuters": "ED", "IQFeed": "@ED"},
+    "Download": {"nac": 29, "ncb": 4},
+    "Letters": [],
+    "COT": ""
+  },
+  "ES": {
+    "Exchange": "",
+    "Sector": "Stocks",
+    "Group": "",
+    "Point": 50,
+    "Tick": 0.05,
+    "Reference": "LTD",
+    "Margin": 50,
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "ES", "IQFeed": ""},
+    "Download": {"nac": 3, "ncb": 1},
+    "Letters": ["H", "M", "U", "Z"],
+    "COT": "13874A"
+  },
+  "FC": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "Meat",
+    "Point": 500,
+    "Tick": 0.25,
+    "Margin": 1200,
+    "Reference": "LTD",
+    "Rule": 10,
+    "Spot": "During the last x trading days of the contract",
+    "Comms": {
+      "C1104LM": {"2016-07-13": {"Lot": 3.29, "Fill": 0}, "2018-01-01": {"Lot": 3.3, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 3.04, "Fill": 0}, "2018-01-01": {"Lot": 3.05, "Fill": 0}, "2018-01-09": {"Lot": 2.75, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "FC", "IQFeed": "@GF"},
+    "Letters": ["F", "H", "J", "K", "Q", "U", "V", "X"],
+    "Download": {"nac": 8, "ncb": 3},
+    "COT": "061641"
+  },
+  "FF": {
+    "Exchange": "",
+    "Sector": "Yield",
+    "Group": "",
+    "Point": 41.67,
+    "Tick": 0.5,
+    "Reference": "LTD",
+    "Margin": 0,
+    "Comms": {
+      "C1104LM": {"2016-01-01": {"Lot": 1.57, "Fill": 0}, "2016-07-01": {"Lot": 1.47, "Fill": 0}, "2016-07-13": {"Lot": 1.65, "Fill": 0}, "2018-01-01": {"Lot": 1.66, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 1.68, "Fill": 0}}
+    },
+    "Stem": {"T4": "MKT_XCME_F ZQ", "CMED": "ZQ", "Reuters": "FF", "IQFeed": "@FF"},
+    "Download": {"nac": 18, "ncb": 6},
+    "Letters": [],
+    "COT": ""
+  },
+  "GC": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 100,
+    "Reference": "FND",
+    "Margin": 100,
+    "Rule": 1,
+    "Spot": "Close of trading on the business day prior to the first notice day of the delivery month",
+    "Letters": ["G", "J", "M", "Q", "V", "Z"],
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "GC", "IQFeed": "QGC"},
+    "Download": {"nac": 12, "ncb": 6},
+    "COT": "088691"
+  },
+  "HG": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 25000,
+    "Tick": 0.05,
+    "Margin": 125,
+    "Reference": "FND",
+    "Rule": 1,
+    "Spot": "Close of trading on the business day prior to the first notice day of the delivery month",
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "HG", "IQFeed": "QHG"},
+    "Download": {"nac": 18, "ncb": 2},
+    "COT": "085692"
+  },
+  "HO": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 42000,
+    "Tick": 0.01,
+    "Reference": "LTD",
+    "Margin": 500,
+    "Rule": 3,
+    "Spot": "Close of trading x business days prior to last trading day of the contract",
+    "Letters": [],
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "HO", "IQFeed": "QHO"},
+    "Download": {"nac": 18, "ncb": 6},
+    "COT": "022651"
+  },
+  "KC": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 375,
+    "Tick": 0.05,
+    "Margin": 450,
+    "Reference": "FND",
+    "Rule": 0,
+    "Spot": "On and after First Notice Day",
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Comms": {
+      "C1104LM": {"1990-01-01": {"Lot": 2.3, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 2.82, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "KC", "IQFeed": "@KC"},
+    "Download": {"nac": 12, "ncb": 6},
+    "COT": "083731"
+  },
+  "KW": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Reference": "FND",
+    "Margin": 0,
+    "Rule": 3,
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "KW", "IQFeed": "@KW"},
+    "Download": {"nac": 8, "ncb": 5},
+    "COT": "001612"
+  },
+  "LB": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 110,
+    "Tick": 0.01,
+    "Margin": 1450,
+    "Reference": "LTD",
+    "Rule": 10,
+    "Spot": "Close of trading on the first business day of the contract month",
+    "Comms": {
+      "C1104LM": {"2016-07-13": {"Lot": 3.29, "Fill": 0}, "2018-01-01": {"Lot": 3.3, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 3.04, "Fill": 0}, "2018-01-01": {"Lot": 3.05, "Fill": 0}, "2018-01-09": {"Lot": 2.75, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "LB", "IQFeed": "@LB"},
+    "Letters": ["F", "H", "K", "N", "U", "X"],
+    "Download": {"nac": 6, "ncb": 2},
+    "COT": "058643"
+  },
+  "LC": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "Meat",
+    "Point": 400,
+    "Tick": 0.025,
+    "Reference": "FND",
+    "Margin": 1100,
+    "Rule": 1,
+    "Letters": ["G", "J", "M", "Q", "V", "Z"],
+    "Comms": {
+      "C1104LM": {"2016-07-13": {"Lot": 3.29, "Fill": 0}, "2018-01-01": {"Lot": 3.3, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 2.75, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "LC", "IQFeed": "@LE"},
+    "Download": {"nac": 9, "ncb": 4},
+    "COT": "057642"
+  },
+  "CO": {
+    "Exchange": "ICE",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 1000,
+    "Reference": "LTD",
+    "Margin": 0,
+    "Letters": [],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "LCO", "IQFeed": "@EB"},
+    "Download": {"nac": 30, "ncb": 12},
+    "COT": "B"
+  },
+  "GO": {
+    "Exchange": "ICE",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 100,
+    "Reference": "LTD",
+    "Margin": 0,
+    "Letters": [],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "LGO", "IQFeed": "GAS"},
+    "Download": {"nac": 20, "ncb": 6},
+    "COT": "G"
+  },
+  "LH": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "Meat",
+    "Point": 400,
+    "Tick": 0.025,
+    "Reference": "LTD",
+    "Margin": 950,
+    "Rule": 10,
+    "Comms": {
+      "C1104LM": {"2016-07-13": {"Lot": 3.29, "Fill": 0}, "2018-01-01": {"Lot": 3.3, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 2.75, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "LH", "IQFeed": "@HE"},
+    "Letters": ["G", "J", "K", "M", "N", "Q", "V", "Z"],
+    "Download": {"nac": 9, "ncb": 6},
+    "COT": "054642"
+  },
+  "RC": {
+    "Exchange": "ICE",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 10,
+    "Reference": "FND",
+    "Margin": 345,
+    "Letters": ["F", "H", "K", "N", "U", "X"],
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 1.46, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "LRC", "IQFeed": "LRC"},
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "RC"
+  },
+  "SU": {
+    "Exchange": "ICE",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Reference": "LTD",
+    "Margin": 236,
+    "Letters": ["H", "K", "Q", "V", "Z"],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "LSU", "IQFeed": "QW"},
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "W"
+  },
+  "MW": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Tick": 0.25,
+    "Reference": "FND",
+    "Margin": 0,
+    "Rule": 3,
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "1MWE", "IQFeed": "@MW"},
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "001626"
+  },
+  "NG": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 10000,
+    "Reference": "LTD",
+    "Margin": 250,
+    "Rule": 3,
+    "Spot": "Close of trading x business days prior to last trading day of the contract",
+    "Letters": [],
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "NG", "IQFeed": "QNG"},
+    "Download": {"nac": 20, "ncb": 12},
+    "COT": "023651"
+  },
+  "O_": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Tick": 0.25,
+    "Reference": "FND",
+    "Margin": 450,
+    "Rule": 2,
+    "Spot": "Close of trading x business days prior to the first trading day of the delivery month",
+    "Comms": {
+      "C1104LM": {"2016-07-13": {"Lot": 3.21, "Fill": 0}, "2018-01-01": {"Lot": 3.22, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 2.67, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "O", "IQFeed": "@O"},
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "004603"
+  },
+  "OJ": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 150,
+    "Tick": 0.05,
+    "Margin": 1100,
+    "Reference": "FND",
+    "Rule": 0,
+    "Spot": "On and after First Notice Day",
+    "Comms": {
+      "C1104LM": {"2016-07-13": {"Lot": 3.36, "Fill": 0}, "2018-01-01": {"Lot": 3.37, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 3.11, "Fill": 0}, "2018-01-01": {"Lot": 3.12, "Fill": 0}, "2018-01-09": {"Lot": 2.82, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "OJ", "IQFeed": "@OJ"},
+    "Letters": ["F", "H", "K", "N", "U", "X"],
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "040701"
+  },
+  "PA": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 100,
+    "Reference": "FND",
+    "Margin": 2400,
+    "Rule": 1,
+    "Spot": "Close of trading on the business day prior to the first notice day of the delivery month",
+    "Letters": ["H", "M", "U", "Z"],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "PA", "IQFeed": "QPA"},
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "075651"
+  },
+  "PL": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Reference": "FND",
+    "Margin": 150,
+    "Rule": 1,
+    "Spot": "Close of trading on the business day prior to the first notice day of the delivery month",
+    "Letters": ["F", "J", "N", "V"],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "PL", "IQFeed": "QPL"},
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "076651"
+  },
+  "RB": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 420,
+    "Reference": "LTD",
+    "Margin": 800,
+    "Rule": 3,
+    "Spot": "Close of trading x business days prior to last trading day of the contract",
+    "Letters": [],
+    "Comms": {
+      "C1104LM": {"2016-07-13": {"Lot": 2.76, "Fill": 0}, "2018-01-01": {"Lot": 2.77, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 3.00, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "RB", "IQFeed": "QRB"},
+    "Download": {"nac": 12, "ncb": 6},
+    "COT": "111659"
+  },
+  "RR": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 2000,
+    "Tick": 0.005,
+    "Reference": "FND",
+    "Margin": 875,
+    "Rule": 2,
+    "Spot": "Close of trading x business days prior to the first trading day of the delivery month",
+    "Letters": ["F", "H", "K", "N", "U", "X"],
+    "Comms": {
+      "7GE1478": {"1900-01-01": {"Lot": 2.67, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "RR", "IQFeed": "@RR"},
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "039601"
+  },
+  "S_": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Tick": 0.25,
+    "Reference": "FND",
+    "Margin": 320,
+    "Rule": 2,
+    "Spot": "Close of trading x business days prior to the first trading day of the delivery month",
+    "Letters": ["F", "H", "K", "N", "Q", "U", "X"],
+    "Comms": {},
+    "Stem": {"T4": "", "CMED": "", "Reuters": "S", "IQFeed": "@S"},
+    "Download": {"nac": 8, "ncb": 6},
+    "COT": "005602"
+  },
+  "SB": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 1120,
+    "Tick": 0.01,
+    "Margin": 500,
+    "Reference": "LTD",
+    "Rule": 2,
+    "Spot": "x Business Day following the expiration of the regular option contract traded on the expiring futures contract",
+    "Letters": ["H", "K", "N", "V"],
+    "Comms": {
+      "C1104LM": {"1990-01-01": {"Lot": 3.36, "Fill": 0}, "2018-01-01": {"Lot": 3.37, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 3.11, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "SB", "IQFeed": "@SB"},
+    "Download": {"nac": 10, "ncb": 4},
+    "COT": "080732"
+  },
+  "SI": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 5000,
+    "Reference": "FND",
+    "Margin": 135,
+    "Rule": 1,
+    "Spot": "Close of trading on the business day prior to the first notice day of the delivery month",
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Comms": {
+      "C1104LM": {"1990-01-01": {"Lot": 2.76, "Fill": 0}, "2018-01-01": {"Lot": 2.77, "Fill": 0}},
+      "7GE1478": {"1990-01-01": {"Lot": 2.76, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "SI", "IQFeed": "QSI"},
+    "Download": {"nac": 6, "ncb": 2},
+    "COT": "084691"
+  },
+  "SM": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 100,
+    "Tick": 0.1,
+    "Reference": "FND",
+    "Margin": 400,
+    "Rule": 2,
+    "Spot": "Close of trading x business days prior to the first trading day of the delivery month",
+    "Letters": ["F", "H", "K", "N", "Q", "U", "V", "Z"],
+    "Comms": {
+      "7GE1478": {"1990-01-01": {"Lot": 3.0, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "SM", "IQFeed": "@SM"},
+    "Download": {"nac": 4, "ncb": 1},
+    "COT": "026603"
+  },
+  "W_": {
+    "Exchange": "",
+    "Sector": "Commodity",
+    "Group": "",
+    "Point": 50,
+    "Margin": 175,
+    "Tick": 0.25,
+    "Reference": "FND",
+    "Rule": 2,
+    "Spot": "Close of trading x business days prior to the first trading day of the delivery month",
+    "Letters": ["H", "K", "N", "U", "Z"],
+    "Comms": {
+      "C1104LM": {"1990-01-01": {"Lot": 3.21, "Fill": 0}, "2018-01-01": {"Lot": 3.22, "Fill": 0}},
+      "7GE1478": {"1900-01-01": {"Lot": 2.67, "Fill": 0}}
+    },
+    "Stem": {"T4": "", "CMED": "", "Reuters": "W", "IQFeed": "@W"},
+    "Download": {"nac": 10, "ncb": 5},
+    "COT": "001602"
+  }
+}

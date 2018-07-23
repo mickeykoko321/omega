@@ -1,0 +1,6 @@
+{
+  "TestTradeMulti": {
+    "param1": 10,
+    "param2": {"FC": 1, "LC": 2, "LH": 3}
+  }
+}
